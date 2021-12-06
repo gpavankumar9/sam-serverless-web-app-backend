@@ -2,6 +2,14 @@
 Serverless webapp backend - API Gateway-LAMBDA-DynamoDB
 Serverless webapp backend which takes GET and POST methods to fetch the data from Database and loads the data to the database
 
+#SAM Commands
+
+sam build
+sam deploy --stack-name test-sam-1 --capabilities CAPABILITY_NAMED_IAM
+
+#API Keys for Authentication
+
+
 LAMBDA:
 
 Depending on method type either loads the database or retrives the data from it
